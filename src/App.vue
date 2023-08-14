@@ -1,28 +1,29 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <HelloWorld msg="Bienvenido a Vue.js App"/>
+  <HelloWorld msg="Bienvenido a Vue.js App" />
   <Cabecera></Cabecera>
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat sapiente qui sed soluta id. Veniam sint dolorem ut! Quidem, eaque sit magnam veniam aspernatur eos eius nisi natus tempore distinctio.</p>
+
+  <Caja /> 
+
+  <PiePagina></PiePagina>
 </template>
 
-
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Cabecera from './components/Cabecera.vue'
+import HelloWorld from "@/components/HelloWorld.vue";
+import Cabecera from "@/components/Cabecera.vue";
+import PiePagina from "@/components/PiePagina.vue";
+import Caja from "@/components/practicasCss/Caja.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HelloWorld,
-    Cabecera
-  }
-}
-
+    Cabecera,
+    PiePagina,
+    Caja
+  },
+};
 </script>
-
-
-
 
 <style>
 #app {
@@ -30,7 +31,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #e2a82c;
+  color: #9b6486;
   margin-top: 60px;
 }
 </style>
