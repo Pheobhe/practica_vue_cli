@@ -4,8 +4,10 @@
   <Cabecera></Cabecera>
 
   <Caja /> 
-  <Flex-Box />
-  <PiePagina></PiePagina>
+  <flex-box />
+  <pie-pagina />
+  <card-simple/>
+  <person-card/>
 </template>
 
 <script>
@@ -14,6 +16,8 @@ import Cabecera from "@/components/Cabecera.vue";
 import PiePagina from "@/components/PiePagina.vue";
 import Caja from "@/components/practicasCss/Caja.vue";
 import FlexBox from "@/components/practicasCss/FlexBox.vue";
+import CardSimple from "@/components/practicasCss/CardSimple.vue";
+import PersonCard from "@/components/practicasCss/PersonCard.vue";
 
 export default {
   name: "App",
@@ -22,7 +26,9 @@ export default {
     Cabecera,
     PiePagina,
     Caja,
-    FlexBox
+    FlexBox,
+    CardSimple,
+    PersonCard
   },
 };
 </script>
