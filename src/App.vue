@@ -4,7 +4,7 @@
   <Cabecera></Cabecera>
 
   <Caja /> 
-
+  <Flex-Box />
   <PiePagina></PiePagina>
 </template>
 
@@ -13,6 +13,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
 import Cabecera from "@/components/Cabecera.vue";
 import PiePagina from "@/components/PiePagina.vue";
 import Caja from "@/components/practicasCss/Caja.vue";
+import FlexBox from "@/components/practicasCss/FlexBox.vue";
 
 export default {
   name: "App",
@@ -20,7 +21,8 @@ export default {
     HelloWorld,
     Cabecera,
     PiePagina,
-    Caja
+    Caja,
+    FlexBox
   },
 };
 </script>
