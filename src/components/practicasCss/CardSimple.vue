@@ -3,7 +3,7 @@
 
         <img 
             class="card-simple__img"
-            src="../../assests/cara.png"
+            src="../../assets/cara.png"
         >
         <p class="card-simple__titulo">Titulo de la Tarjeta</p>
         <p class="card-simple__subtitulo">Subtitulo de la Tarjeta</p>
