@@ -27,7 +27,7 @@
             </div>
             <div class="card-portada__content__control">
                 <button class="card-portada__content__control__btn">Conectar</button>
-                <button class="card-portada__content__control__btn">Ver mas</button>
+                <button class="card-portada__content__control__btn celeste">Ver mas</button>
             </div>
 
 
@@ -44,5 +44,79 @@
 </script>
 
 <style lang="scss" scoped>
+
+.card-portada{
+        border: 2px solid;
+        width: 800px;
+        height: 400px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+
+        &__img{
+            width: 100%;
+            height: 100%;
+           
+        }
+        &__content{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            &__img{
+               width: 80px;
+               height: 80px;
+               border-radius: 50%;
+            }
+            &__name{
+                color: white;
+                font-weight: bold;
+                margin-bottom: 5px;
+                    
+                }
+        
+                &__reporter{
+                    border-top: 1px solid white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    
+
+                    &__items{
+                        width: 100px;
+                        color: white;
+                        &__number{
+                            font-weight: bold;
+                            }
+                        &__text{
+                            font-size: 12px;
+                            }
+                        }
+                }
+            &__control{
+
+                &__btn{
+                    background: rgb(53, 207, 53);
+                    padding: 6px 3px 6px 3px;
+                    margin: 5px;
+                    border: none;
+                    border-radius: 5px;
+                    color: white;
+                    &.celeste{
+                        background:  #3498db;
+                    }
+
+                }
+            }
+        }
+}
 
 </style>

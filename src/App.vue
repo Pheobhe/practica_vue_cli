@@ -8,6 +8,7 @@
   <pie-pagina />
   <card-simple/>
   <person-card/>
+  <card-portada/>
 </template>
 
 <script>
@@ -18,6 +19,7 @@ import Caja from "@/components/practicasCss/Caja.vue";
 import FlexBox from "@/components/practicasCss/FlexBox.vue";
 import CardSimple from "@/components/practicasCss/CardSimple.vue";
 import PersonCard from "@/components/practicasCss/PersonCard.vue";
+import CardPortada from "@/components/practicasCss/CardPortada.vue/"
 
 export default {
   name: "App",
@@ -28,7 +30,8 @@ export default {
     Caja,
     FlexBox,
     CardSimple,
-    PersonCard
+    PersonCard,
+    CardPortada
   },
 };
 </script>
