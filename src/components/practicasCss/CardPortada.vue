@@ -47,7 +47,7 @@
 
 .card-portada{
         border: 2px solid;
-        width: 800px;
+        width: 1000px;
         height: 400px;
         position: relative;
         display: flex;
@@ -105,10 +105,10 @@
 
                 &__btn{
                     background: rgb(53, 207, 53);
-                    padding: 6px 3px 6px 3px;
+                    padding: 5px 2em 5px 2em;
                     margin: 5px;
                     border: none;
-                    border-radius: 5px;
+                    border-radius: 10px;
                     color: white;
                     &.celeste{
                         background:  #3498db;
