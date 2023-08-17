@@ -15,3 +15,4 @@ capitulo 25, tutorial de vue de Pol
 43 cardPortada
 
 45, minuto 5 PortadaHome
+47 el scoped es agregado en el style para que todos los estilos declarados tengan efecto solo en ese componentes, sino vue entiende que es global y lo agrega a otros componentes que tengan estilos con iguales nombres
