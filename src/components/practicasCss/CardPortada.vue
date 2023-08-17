@@ -52,7 +52,7 @@
         position: relative;
         display: flex;
         justify-content: center;
-
+        margin: 2em;
 
         &__img{
             width: 100%;

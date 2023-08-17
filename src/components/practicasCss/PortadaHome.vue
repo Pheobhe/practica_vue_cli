@@ -1,11 +1,14 @@
 <template>
+   
     <div class="card-portada">
         <img 
         class="card-portada__img"
         src="../../assets/fondo.png"
         >
         <div class="card-portada__content">
-           
+          
+            <v-card-image-name/>    
+
             <div class="card-portada__content__reporter">
                 <div class="card-portada__content__reporter__items">
                     <p class="card-portada__content__reporter__items__number">20</p>
@@ -21,8 +24,14 @@
                 </div>
             </div>
             <div class="card-portada__content__control">
-                <button class="card-portada__content__control__btn">Conectar</button>
-                <button class="card-portada__content__control__btn celeste">Ver mas</button>
+                <v-button-primary 
+                titulo="Conectar"
+                />
+                <v-button-primary 
+                titulo="Ver mas" 
+                main-color=" #3498db"
+                />
+              
             </div>
 
 
@@ -33,8 +42,17 @@
 </template>
 
 <script>
+
+    import VCardImageName from '@/components/base/VCardImageName'
+    import VButtonPrimary from '@/components/base/VButtonPrimary'
+
     export default {
-        name: 'CardPortada'
+        name: 'PortadaHome',
+
+        components: {
+            VCardImageName,
+            VButtonPrimary
+        }
     }
 </script>
 
@@ -96,21 +114,7 @@
                             }
                         }
                 }
-            &__control{
-
-                &__btn{
-                    background: rgb(53, 207, 53);
-                    padding: 5px 2em 5px 2em;
-                    margin: 5px;
-                    border: none;
-                    border-radius: 10px;
-                    color: white;
-                    &.celeste{
-                        background:  #3498db;
-                    }
-
-                }
-            }
+         
         }
 }
 
