@@ -58,6 +58,7 @@
 
 <style lang="scss" scoped>
 
+@import "../../_variables.scss";
 .card-portada{
         border: 2px solid;
         width: 1000px;
@@ -89,14 +90,14 @@
                border-radius: 50%;
             }
             &__name{
-                color: white;
+                color: color2;
                 font-weight: bold;
                 margin-bottom: 5px;
                     
                 }
         
                 &__reporter{
-                    border-top: 1px solid white;
+                    border-top: 1px solid $color2;
                     display: flex;
                     justify-content: center;
                     align-items: center;
